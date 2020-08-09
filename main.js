@@ -42,7 +42,7 @@ function setBgGreet() {
     greeting.textContent = 'Good Morning';
   } else if(hour < 18) {
     // Afternoon
-    document.body.style.backgroundImage = "url('img/afternoon.jpg')";
+    document.body.style.backgroundImage = "url('img/afternoon.gif')";
     greeting.textContent = 'Good Afternoon';
   } else {
     // Evening
